@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Всегдабрь</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+
+
+<div class="page-title">
+  <h1>Всегдабрь</h1>
+</div>
+
+
+<div class="main">
+
+  <p>Всегдабрь — настенный календарь, который не нужно менять каждый год. Над поверхностью с датами перемещается рамка, заключающая в себе нужный месяц:</p>
+  
+  <br>
+    <select id="forebrYear" class=""></select>
+    <select id="forebrMonth" class=""></select>
+
+  <div style="position: relative; width: 890px; height: 505px">
+    <img src="forebruary-body.jpg" 
+      style="position: absolute;"
+      width="890" height="480"
+     
+      class="cal-body"
+    />
+    <div style="position: absolute; left: 50%; margin: 0 0 0 -566px;">
+      <img src="forebruary-frame.png" 
+        style="position: absolute; left: 272px; top: 0; margin: 0 11px;  cursor: move;"
+        width="566" height="505"
+        alt="Всегдабрь — календарь на все месяцы"
+        class="cal-frame"
+      />
+    </div>
+  </div>
+  
+  <script src="forebruary.js"></script>
+  <script src="script.js"></script>
+
+
+  <br>
+  
+</div>
+
+
+</body>
+
+</html>

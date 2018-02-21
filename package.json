@@ -1,0 +1,11 @@
+{
+  "name": "forebruary",
+  "version": "1.0.0",
+  "description": "calendar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Platon",
+  "license": "ISC"
+}
